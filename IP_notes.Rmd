@@ -1,0 +1,11 @@
+---
+title: "IP_notes"
+output: html_document
+date: "2024-10-17"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Introduction to independent project. Practicing following directions to get in the habit of the workflow. 

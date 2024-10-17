@@ -21,15 +21,20 @@ Add description here ...
 
 To be determined
 
+Still TBD
+
 ## Repository contents
 
 Describe the contents and their organization here ...  
 
 To be determined
 
+Still TBD
 
 ## How to contribute
 
 Describe how would collaborators to contribute to this repository ...  
 
 To be determined
+
+Still TBD

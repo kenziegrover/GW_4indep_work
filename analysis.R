@@ -1,4 +1,4 @@
-# 2. Corerlation among predictors
+# 2. Correlation among predictors
 cor_matrix <- cor(data[, c("predictor1", "predictor2", "predictor3")])
 
 # Save correlation matrix as a plot
@@ -6,7 +6,7 @@ png("correlation_plot.png")
 pairs(data[, c("predictor1", "predictor2", "predictor3")], main = "Correlation Plot")
 dev.off()
 
-# 3. Fit GLMs with different combiantions of predictors
+# 3. Fit GLMs with different combinations of predictors
 model1 <- glm(response ~ predictor1, data = data)
 model2 <- glm(response ~ predictor1 + predictor2, data = data)
 model3 <- glm(response ~ predictor1 + predictor2 + predictor3, data = data)
